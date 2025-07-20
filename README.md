@@ -1,10 +1,10 @@
 # Credit-card-Default-Prediction-using-Machine-learning
 A machine learning-based web application built with Flask to predict credit card default risk. It uses Logistic Regression on a preprocessed dataset and provides a user-friendly interface to input data and receive predictions.
 
-## 📌 Objective
+## Objective
 To predict credit card default using machine learning techniques and provide an interactive web application for end users.
 
-## 🧰 Libraries Used
+## Libraries Used
 
 - **Flask**: For building the web application.
 - **Pandas**: For data manipulation and preprocessing.
@@ -12,7 +12,7 @@ To predict credit card default using machine learning techniques and provide an 
 - **Joblib**: For saving and loading the trained model.
 - **HTML/CSS**: For designing the front-end interface.
 
-## 🛠️ Requirements
+##  Requirements
 
 Make sure the following are installed:
 
@@ -48,3 +48,33 @@ pip install -r requirements.txt
 5. Testing and Validation
 - Verified predictions using sample inputs
 - Ensured the web app returns accurate results
+
+Here is the updated **run instructions section** with your GitHub repository URL:
+
+````markdown
+##  Run Locally
+
+1. **Clone the repository**:
+```bash
+git clone https://github.com/KirthigaManivannan/Credit-card-Default-Prediction-using-Machine-learning.git
+cd Credit-card-Default-Prediction-using-Machine-learning
+````
+
+2. **Install the required libraries**:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. **Run the Flask application**:
+
+```bash
+python app.py
+```
+
+4. **Open your browser and go to**:
+
+```
+http://127.0.0.1:5000/
+```
+
