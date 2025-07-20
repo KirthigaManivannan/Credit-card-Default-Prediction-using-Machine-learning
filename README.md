@@ -26,17 +26,17 @@ Install the dependencies using:
 pip install -r requirements.txt
 
 **Project Workflow**
-1. Data Preparation
+1. Data Preparation:
 Collected the credit card default dataset (client.csv)
 Cleaned and preprocessed the data
 Split the dataset into features (X) and target variable (y)
 
-2. Model Training
+2. Model Training:
 Used Logistic Regression algorithm for classification
 Trained the model on the preprocessed data
 Saved the trained model and scaler using joblib
 
-3. Web Application Development
+3. Web Application Development:
 Created a Flask web application (app.py)
 Designed index.html for input and result.html for output
 Styled the pages with styles.css
