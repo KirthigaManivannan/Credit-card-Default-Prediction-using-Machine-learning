@@ -49,12 +49,11 @@ pip install -r requirements.txt
 - Verified predictions using sample inputs
 - Ensured the web app returns accurate results
 
-Here is the updated **run instructions section** with your GitHub repository URL:
 
-````markdown
 ##  Run Locally
 
 1. **Clone the repository**:
+   
 ```bash
 git clone https://github.com/KirthigaManivannan/Credit-card-Default-Prediction-using-Machine-learning.git
 cd Credit-card-Default-Prediction-using-Machine-learning
