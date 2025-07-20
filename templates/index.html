@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Credit Card Default Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body style="background-image: url('static/background1.jpg');">
+    <div class="container">
+        <h2>Enter Data for Prediction</h2>
+        <form method="POST" action="/predict" class="prediction-form">
+            <div class="input-group">
+                <label for="limit">Limit Balance:</label>
+                <input type="text" id="limit" name="LIMIT_BAL">
+            </div>
+            <div class="input-group">
+                <label for="age">Age:</label>
+                <input type="text" id="age" name="AGE">
+            </div>
+            <div class="input-group">
+                <label>Sex:</label>
+                <input type="radio" id="male" name="SEX" value="1">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="SEX" value="2">
+                <label for="female">Female</label>
+            </div>
+            <div class="input-group">
+                <label for="education">Education:</label>
+                <input type="text" id="education" name="EDUCATION">
+            </div>
+            <div class="input-group">
+                <label for="marriage">Marriage:</label>
+                <input type="text" id="marriage" name="MARRIAGE">
+            </div>
+            <div class="input-group">
+                <label for="pay0">Pay Status (Last Month):</label>
+                <input type="text" id="pay0" name="PAY_0">
+            </div>
+            <div class="input-group">
+                <label for="pay2">Pay Status (2 Months Ago):</label>
+                <input type="text" id="pay2" name="PAY_2">
+            </div>
+            <div class="input-group">
+                <label for="pay3">Pay Status (3 Months Ago):</label>
+                <input type="text" id="pay3" name="PAY_3">
+            </div>
+            <div class="input-group">
+                <label for="pay4">Pay Status (4 Months Ago):</label>
+                <input type="text" id="pay4" name="PAY_4">
+            </div>
+            <div class="input-group">
+                <label for="pay5">Pay Status (5 Months Ago):</label>
+                <input type="text" id="pay5" name="PAY_5">
+            </div>
+            <div class="input-group">
+                <label for="pay6">Pay Status (6 Months Ago):</label>
+                <input type="text" id="pay6" name="PAY_6">
+            </div>
+            <div class="input-group">
+                <label for="bill1">Bill Amount 1:</label>
+                <input type="text" id="bill1" name="BILL_AMT1">
+            </div>
+            <div class="input-group">
+                <label for="bill2">Bill Amount 2:</label>
+                <input type="text" id="bill2" name="BILL_AMT2">
+            </div>
+            <div class="input-group">
+                <label for="bill3">Bill Amount 3:</label>
+                <input type="text" id="bill3" name="BILL_AMT3">
+            </div>
+            <div class="input-group">
+                <label for="bill4">Bill Amount 4:</label>
+                <input type="text" id="bill4" name="BILL_AMT4">
+            </div>
+            <div class="input-group">
+                <label for="bill5">Bill Amount 5:</label>
+                <input type="text" id="bill5" name="BILL_AMT5">
+            </div>
+            <div class="input-group">
+                <label for="bill6">Bill Amount 6:</label>
+                <input type="text" id="bill6" name="BILL_AMT6">
+            </div>
+            <div class="input-group">
+                <label for="payamt1">Pay Amount 1:</label>
+                <input type="text" id="payamt1" name="PAY_AMT1">
+            </div>
+            <div class="input-group">
+                <label for="payamt2">Pay Amount 2:</label>
+                <input type="text" id="payamt2" name="PAY_AMT2">
+            </div>
+            <div class="input-group">
+                <label for="payamt3">Pay Amount 3:</label>
+                <input type="text" id="payamt3" name="PAY_AMT3">
+            </div>
+            <div class="input-group">
+                <label for="payamt4">Pay Amount 4:</label>
+                <input type="text" id="payamt4" name="PAY_AMT4">
+            </div>
+            <div class="input-group">
+                <label for="payamt5">Pay Amount 5:</label>
+                <input type="text" id="payamt5" name="PAY_AMT5">
+            </div>
+            <div class="input-group">
+                <label for="payamt6">Pay Amount 6:</label>
+                <input type="text" id="payamt6" name="PAY_AMT6">
+            </div>
+            <input type="submit" value="Predict" class="btn">
+        </form>
+    </div>
+</body>
+</html>
+
