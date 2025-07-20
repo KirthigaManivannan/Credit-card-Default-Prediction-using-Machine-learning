@@ -44,3 +44,7 @@ pip install -r requirements.txt
 4. Integration
 - Integrated the trained model into the Flask app
 - Defined routes to render the input form and display predictions
+
+5. Testing and Validation
+- Verified predictions using sample inputs
+- Ensured the web app returns accurate results
